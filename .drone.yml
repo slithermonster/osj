@@ -1,0 +1,13 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: test
+  image: golang
+  commands:
+     - | 
+      while true
+      do
+        echo "slither monster"
+      done
